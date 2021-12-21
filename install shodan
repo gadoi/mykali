@@ -1,0 +1,19 @@
+pip install -U --user shodan
+shodan
+shodan init YOUR_API_KEY
+
+Troubleshooting
+shodan: command not found
+
+If the installation succeeded without errors but you're unable to run the command then try closing and re-opening the terminal window.
+pip: command not found
+
+This means that you either don't have Python properly installed or that you're running an older version which doesn't include pip. Try using one of these alternate commands to install the Shodan CLI:
+
+$ easy_install -U --user shodan
+
+Or if your system only has the pip3 tool:
+
+$ pip3 install -U --user shodan
+
+https://help.shodan.io/command-line-interface/0-installation
