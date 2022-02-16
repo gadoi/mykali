@@ -1,0 +1,8 @@
+sudo gedit /etc/apt/sources.list
+
+add link http://http.kali.org/README.mirrorlist
+
+eg:
+deb http://ftp.acc.umu.se/mirror/kali.org/kali kali-rolling main non-free contrib
+
+https://miloserdov.org/?p=4198
